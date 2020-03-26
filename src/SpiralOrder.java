@@ -9,8 +9,8 @@ public class SpiralOrder {
         }
         int lenOfW=matrix[0].length;
         int sum=lenOfH*lenOfW;
-        int i=0;
-        int j=0;
+        int i = 0;
+        int j = 0;
         int m=lenOfH-1;
         int n=lenOfW-1;
         List<Integer> lis= new ArrayList<>();
