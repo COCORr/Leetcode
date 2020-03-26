@@ -2,7 +2,7 @@ import java.sql.ClientInfoStatus;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Generate {
+public class Generate {     //杨辉三角
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>>  ans=new ArrayList<>();
         if (numRows<1){

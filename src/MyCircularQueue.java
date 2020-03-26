@@ -1,4 +1,4 @@
-public class MyCircularQueue {
+public class MyCircularQueue {  //循环队列
     private int []  array;
     private int start;
     private int end;
